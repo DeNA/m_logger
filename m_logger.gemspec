@@ -1,10 +1,8 @@
 # frozen_string_literal: true
 
-require_relative "lib/m_logger/version"
-
 Gem::Specification.new do |spec|
   spec.name = "m_logger"
-  spec.version = MLogger::VERSION
+  spec.version = "1.0.0"
   spec.authors = ["Takumasa Ochi"]
 
   spec.summary = "Simple Logger with Alternative Log Rotation Strategy"
