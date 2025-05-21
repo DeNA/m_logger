@@ -1,10 +1,8 @@
 # frozen_string_literal: true
 
-require_relative "lib/m_logger/version"
-
 Gem::Specification.new do |spec|
   spec.name = "m_logger"
-  spec.version = MLogger::VERSION
+  spec.version = "1.0.0"
   spec.authors = ["Takumasa Ochi"]
 
   spec.summary = "Simple Logger with Alternative Log Rotation Strategy"
@@ -31,7 +29,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   # Uncomment to register a new dependency of your gem
-  # spec.add_dependency "example-gem", "~> 1.0"
+  spec.add_dependency "logger"
 
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html

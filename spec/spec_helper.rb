@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 require "m_logger"
-require "pry-byebug"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
