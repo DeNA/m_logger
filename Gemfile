@@ -13,6 +13,4 @@ gem "rubocop", "~> 1.21"
 
 gem "timecop"
 
-gem "pry-byebug"
-
 gem "parallel"
